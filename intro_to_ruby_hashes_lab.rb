@@ -8,6 +8,8 @@ def my_hash
   valid_hash = Hash.new 
   valid_hash["task"] = "Flatiron Prework"
   valid_hash["time"] = Time.now
+  
+  return valid_hash
 end
 
 def pioneer
