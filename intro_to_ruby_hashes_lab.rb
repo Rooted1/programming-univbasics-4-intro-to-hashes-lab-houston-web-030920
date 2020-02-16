@@ -5,7 +5,9 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  
+  valid_hash = Hash.new 
+  valid_hash["task"] = "Flatiron Prework"
+  valid_hash["time"] = Time.now
 end
 
 def pioneer
